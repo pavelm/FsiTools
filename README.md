@@ -72,7 +72,7 @@ codeGenT'<MyRecordType> true [Lens; Zero; Json; Codec; Constructor; ]
 
 ```
 
-#### Pasted into your code
+#### Paste into your code
 ```fsharp
 type Inner with
     static member Inner = (fun (x:Inner) -> x.inner) |> Lens.create <| fun v x -> {x with inner = v }
