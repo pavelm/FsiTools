@@ -1,4 +1,4 @@
-FSITools
+FsiTools
 ========
 
 Collection of tools and functions to make working in FSI easier
@@ -37,7 +37,7 @@ codeGenT<MyRecordType> false [ Json; Zero; Codec; Constructor ]
 codeGenT'<MyRecordType> false [ Json; Zero; Codec; Constructor ]
 
 // will generate type extensions just for a single type by System.Type
-codeGen [ Json; Zero; Codec; Constructor ] typeOf<MyRecordType> 
+codeGen [ Json; Zero; Codec; Constructor ] typeof<MyRecordType> 
 
 ```
 
