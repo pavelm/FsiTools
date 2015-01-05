@@ -12,3 +12,6 @@ open Strings
 open System.Reflection
 open System
 
+
+let runsync (work:Async<'a>) = 
+    work |> Async.RunSynchronously
