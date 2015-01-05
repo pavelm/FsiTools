@@ -195,7 +195,7 @@ let genCodec (objType:Type) =
         <| name
         <| tabs 1
         <| name
-        <| "codec"
+        <| "jsonValueCodec"
         <| name
 
 type GenKind = Lens | Zero | Json | Codec | Constructor 
