@@ -51,6 +51,7 @@
     <Compile Include="Strings.fs" />
     <Compile Include="Msdev.fs" />
     <Compile Include="CodeGen.fs" />
+    <None Include="JsonSerialization.fsx" />
     <None Include="BootstrapInteractive.fsx" />
     <None Include="Script.fsx" />
   </ItemGroup>
